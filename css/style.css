@@ -192,12 +192,14 @@ ul.menu-list {
 .project{
     padding: 0 0 56px;
 }
+.project .project-info{
+    padding: 56px 0 20px;
+}
 .project .project-title{
     font-size: 40px;
-    list-style: 60px;
+    line-height: 60px;
     color: #000;
     margin: 0;
-    padding: 56px 0 20px;
 }
 .project .project-img{
     max-width: 320px;
@@ -317,10 +319,17 @@ footer .footer-media{
 footer .link{
     color: #fff;
 }
-@media only screen and (max-width: 1199px){
+@media only screen and (max-width: 991px){
     .container{
-        max-width: 1180px;
+        max-width: 820px;
         padding: 0 10px;
+    }
+    .hub-light-logo {
+        display: flex;
+        padding: 275px 0 0;
+    }
+    .video-data .logo-detail{
+        padding: 270px 0 0;
     }
     .hub-detail .hub-details {
         font-size: 20px;
@@ -345,4 +354,31 @@ footer .link{
     .light-section .light-detail br{
         display: none;
     }
+    .project .project-img{
+        max-width: 250px;
+        max-height: 170px;
+    }
+    .project .project-file-detail br{
+        display: none;
+    }
 }
+@media only screen and (max-width: 1199px){
+    .container{
+        max-width: 1180px;
+        padding: 0 80px
+    }
+    .logo-detail {
+        padding: 150px 0 0;
+    }
+    .text .text-detail br{
+        display: none;
+    }
+    .text .section-text br{
+        display: none;
+    }
+    .green-section{
+        padding: 56px 10px;
+    }
+}
+
+
