@@ -110,8 +110,8 @@ ul.menu-list {
     color: #282828;
 }
 .hub-background {
-    background-image: url(/assets/hub-bacckgound.png);
-    background-color: #282828;
+    background-image: url(/hub/assets/hub-bacckgound.png);
+    background-color: #2a2a27;
     background-size: cover;
     background-position: 50% 50%;
     height: 300px;
@@ -159,7 +159,7 @@ ul.menu-list {
     padding: 0 0 56px;
 }
 .hub-background-black{
-    background-image: url(/assets/hub-background-black.svg);
+    background-image: url(/hub/assets/hub-background-black.svg);
     background-color: #fff;
     background-size: cover;
     background-position: 50% 50%;
